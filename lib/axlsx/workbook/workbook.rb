@@ -87,7 +87,7 @@ require 'axlsx/workbook/worksheet/selection.rb'
 
     # When true, the Package will be generated with a shared string table. This may be required by some OOXML processors that do not
     # adhere to the ECMA specification that dictates string may be inline in the sheet.
-    # Using this option will increase the time required to serialize the document as every string in every cell must be analzed and referenced.
+    # Using this option will increase the time required to serialize the document as every string in every cell must be analyzed and referenced.
     # @return [Boolean]
     attr_reader :use_shared_strings
 
